@@ -55,7 +55,7 @@ class EmailTest {
         assertFalse(emailValidator.isValidEmail("a@b.c"));
     }
 
-    // Caso 6: Correo con doble punto en la parte local
+    // Caso 6: Correo con doble punto
     @Test
     void testEmailWithDoubleDotInLocalPartReturnsFalse() {
         Email emailValidator = new Email();
